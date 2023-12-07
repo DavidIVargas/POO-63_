@@ -4,6 +4,8 @@
  */
 package ejercicio11;
 
+import java.awt.Color;
+
 /**
  *
  * @author Estudiante
@@ -17,6 +19,6 @@ public class Principal {
         Pantalla obj = new  Pantalla();
         obj.setVisible(true);
         obj.setLocationRelativeTo(null);
+        obj.getContentPane().setBackground(Color.gray);//recupera el contenedor
     }
-    
 }
