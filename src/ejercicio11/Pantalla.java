@@ -45,8 +45,6 @@ public class Pantalla extends javax.swing.JFrame {
         jLabel1.setText("Valor 1:");
         jLabel1.setToolTipText("");
 
-        jTextField2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Valor 2:");
@@ -116,7 +114,7 @@ public class Pantalla extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
+        jTextField3.setText(jTextField1.getText() + jTextField2.getText());
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
